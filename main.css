@@ -1,1 +1,27 @@
+* body {
+  text-align: center;
+}
+
+body{
+  background:#88eed9;
+  color:#03120f;
+}
+h1{
+  text-align: center;
+  border: 3px solid #03120f;
+}
+table{
+  text-align: center;
+  border: 1px groove #03120f;
+}
+img{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+address{
+  background:aquamarine;
+  border: 2px double darkblue;
+  
+}
 
