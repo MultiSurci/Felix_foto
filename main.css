@@ -4,7 +4,10 @@
 
 body{
   background-image: url(img/skye-studios-NDLLFxTELrU-unsplash.jpg);
-  background-size:cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
   color: #06091d;
   font-family: Avenir Book;
   
@@ -25,6 +28,7 @@ p{
 }
 ul{
   list-style-type: none;
+  text-align: center;
 }
 table{
   width: 100%;
@@ -33,7 +37,7 @@ table{
   vertical-align: bottom;
 }
 
-img{
+#felix{
  display: block;
  margin-left: auto;
  margin-right: auto;
@@ -46,4 +50,9 @@ address{
   color: #0d1447;
   
 }
-
+.icon {
+  width: 20px;
+}
+.icon:hover{
+  color: beige;
+}
